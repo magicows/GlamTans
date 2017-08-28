@@ -220,7 +220,7 @@ get_header(); ?>
                         <address>
 	  						<strong>Opening Hours:</strong><br>
                             <br> 
-                            Monday - Saturday<br>
+                            Monday - Saturday <br>
                             10:00 AM - 8:00 PM<br>
                             <br>
                             Sunday<br>
