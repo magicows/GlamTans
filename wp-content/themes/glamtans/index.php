@@ -231,9 +231,9 @@ get_header(); ?>
 
                 <div class="social-icons m-t-30 social-icons-colored clearfix">
                     <ul>
-                        <li class="social-facebook"><a href="https://www.facebook.com/glamtanscradleyheath/"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social-twitter"><a href="https://twitter.com/glamtansuk"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social-instagram"><a href="https://www.instagram.com/glamtans.co.uk"><i class="fa fa-instagram"></i></a></li>
+                        <li class="social-facebook"><a href="https://www.facebook.com/glamtanscradleyheath/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li class="social-twitter"><a href="https://twitter.com/glamtansuk" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-instagram"><a href="https://www.instagram.com/glamtans.co.uk" target="_blank"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>

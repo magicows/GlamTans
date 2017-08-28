@@ -60,7 +60,7 @@
             <div class="copyright-content">
                 <div class="container">
                     <div class="row">
-                        <div class="copyright-text text-center"> &copy; <?php echo date(Y); ?> GLAMTANS. All Rights Reserved. Built by <a href="http://twitter.com/samfitzpatrick" target="_blank">Sam Fitzpatrick</a>
+                        <div class="copyright-text text-center"> &copy; <?php echo date(Y); ?> GLAMTANS. All Rights Reserved. Built by <a href="https://twitter.com/samfitzpatrick" target="_blank">Sam Fitzpatrick</a>
                         </div>
                     </div>
                 </div>
@@ -73,24 +73,6 @@
 
     <!-- Go to top button -->
     <a id="goToTop"><i class="fa fa-angle-up top-icon"></i><i class="fa fa-angle-up"></i></a>
-
-    <!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
-    <link rel="stylesheet" type="text/css" href="/wp-content/themes/glamtans/js/plugins/revolution/css/settings.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/wp-content/themes/glamtans/js/plugins/revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="/wp-content/themes/glamtans/js/plugins/revolution/css/navigation.css">
-
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/glamtans/js/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
 
     <script type="text/javascript">
         var tpj = jQuery;

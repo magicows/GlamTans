@@ -18,7 +18,7 @@
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
-                        <a href="index.html" class="logo" data-dark-logo="/wp-content/themes/glamtans/images/glamtans-logo-blank.png">
+                        <a href="#header" class="logo" data-dark-logo="/wp-content/themes/glamtans/images/glamtans-logo-blank.png">
                             <img src="/wp-content/themes/glamtans/images/glamtans-logo-blank.png" alt="Polo Logo">
                         </a>
                     </div>

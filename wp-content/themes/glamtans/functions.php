@@ -23,10 +23,10 @@ add_action( 'wp_enqueue_scripts', 'glamtan_scripts' );
  */
 function wpb_add_fonts_icons() {
 
-	wp_enqueue_style( 'wpb-google-fonts', 'http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800', false ); 
-	wp_enqueue_style( 'nothing-google-fonts', 'http://fonts.googleapis.com/css?family=Nothing+You+Could+Do', false );
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800', false ); 
+	wp_enqueue_style( 'nothing-google-fonts', 'https://fonts.googleapis.com/css?family=Nothing+You+Could+Do', false );
 	wp_enqueue_style( 'poiret-one', 'https://fonts.googleapis.com/css?family=Poiret+One', false ); 
-	wp_enqueue_style( 'herr-google-fonts', 'http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff', false ); 
+	wp_enqueue_style( 'herr-google-fonts', 'https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff', false ); 
 	wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(), '4.7.0' );
 }
 add_action( 'wp_enqueue_scripts', 'wpb_add_fonts_icons' );
