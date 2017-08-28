@@ -1,0 +1,23 @@
+.owl-carousel{
+	margin: 0;
+	.owl-stage{
+		@media (max-width: 768px){
+			flex-direction: column;
+		}
+	}
+	.owl-item{
+		@media (max-width: 768px){
+			margin: 10px 0;
+		}
+	}
+}
+
+.wpcf7{
+	@media (max-width: 994px){
+		margin-top: 30px !important;
+	}
+}
+
+.lines, .lines:after, .lines:before {
+    background-color: rgb(255, 2, 139);
+}
