@@ -60,7 +60,7 @@
             <div class="copyright-content">
                 <div class="container">
                     <div class="row">
-                        <div class="copyright-text text-center"> &copy; <?php echo date(Y); ?> GLAMTANS. All Rights Reserved. Built by <a href="https://twitter.com/samfitzpatrick" target="_blank">Sam Fitzpatrick</a>
+                        <div class="copyright-text text-center"> &copy; <?php echo date(Y); ?> GLAMTANS. All Rights Reserved. A Rhodes Family Business EST. 2017. Website Built by <a href="https://twitter.com/samfitzpatrick" target="_blank">Sam Fitzpatrick</a>
                         </div>
                     </div>
                 </div>

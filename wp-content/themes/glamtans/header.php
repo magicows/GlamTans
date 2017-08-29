@@ -20,6 +20,7 @@
                     <div id="logo">
                         <a href="#header" class="logo" data-dark-logo="/wp-content/themes/glamtans/images/glamtans-logo-blank.png">
                             <img src="/wp-content/themes/glamtans/images/glamtans-logo-blank.png" alt="Polo Logo">
+                            <p class="est">Rhodes Family Business Est. 2017</p>
                         </a>
                     </div>
                     <!--End: Logo-->

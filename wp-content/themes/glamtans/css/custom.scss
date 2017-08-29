@@ -21,3 +21,23 @@
 .lines, .lines:after, .lines:before {
     background-color: rgb(255, 2, 139);
 }
+
+#header #header-wrap{
+	border-bottom: 1px solid #000;
+	#logo a>img{
+		height: 68px;
+	}
+}
+
+#header.header-static #header-wrap{
+	background: #000;
+}
+
+.est{
+	line-height: 10px;
+    font-size: 9px;
+    top: 68px;
+    padding-left: 20px;
+    position: absolute;
+    color: #fff;
+}

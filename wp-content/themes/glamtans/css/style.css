@@ -427,11 +427,11 @@ strong {
     border-color: #fafafa;
 }*/
 a {
-  color: #565656; }
+  color: #ff0080; }
   a:hover, a:focus, a:active {
     text-decoration: none;
     outline: none;
-    color: #FF0080; }
+    color: #000; }
 
 /*
 // Fonts 
@@ -1246,7 +1246,7 @@ Main Menu
         #mainMenu nav > ul > li.current > span, #mainMenu nav > ul > li:hover > a,
         #mainMenu nav > ul > li:hover > span, #mainMenu nav > ul > li:focus > a,
         #mainMenu nav > ul > li:focus > span {
-          color: #000; }
+          color: #fff; }
         #mainMenu nav > ul > li .dropdown-menu {
           background-position: right bottom;
           background-repeat: no-repeat;
@@ -5737,8 +5737,8 @@ span.rec-by {
         color: #ffffff; }
   .btn:hover, .btn:focus, .btn:active, .btn.active {
     outline: 0 !important;
-    background-color: #148f77;
-    border-color: #148f77;
+    background-color: #000;
+    border-color: #ff0080;
     color: #fff; }
   .btn.btn-primary {
     background-color: #26B8F3;
