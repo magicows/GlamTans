@@ -33,8 +33,8 @@ get_header(); ?>
         </div>
 
         <div class="col-md-4" style="background-color: rgb(224, 52, 145);">
-            <h3>NAILS</h3>
-            <span>Coming Soon! </span>
+            <h3>GLAMNAILS</h3>
+            <span>Let Glamtans style and shape your nails with their very own qualified Glamnails Technician. Nail services range from a Full Set application to Polish Removal, take a look at the pricing table below for more information.</span>
             <br>
             <br>
             <h3>SPRAY TANNING</h3>
@@ -63,6 +63,10 @@ get_header(); ?>
                     <div class="ac-item ac-active">
                         <h5 class="ac-title"><i class="fa fa-calendar"></i>Group Bookings</h5>
                         <div style="display: block;" class="ac-content">Group booking are available upon request. We can cater for Wedding and Prom parties so whichever your big day, why not get in touch using the form below.</div>
+                    </div>
+                    <div class="ac-item ac-active">
+                        <h5 class="ac-title"><i class="fa fa-paint-brush"></i>Glamnails</h5>
+                        <div style="display: block;" class="ac-content"><ul><li>Full Set - £20.00</li><li>Infills - £15.00</li><li>Nail Removal - £10.00</li><li>Nail Polish - £5+</li><li>Nail Gels - £18.00</li><li>Toe Polish - £5.00</li><li>Toe Gels - £15.00</li><li>Polish Removal - £4.00</li><li>Patterns - £4.00</li><li>Chrome Look - £2.50 per nail</li><li>Gems - £1.00 each</li><li>Cut Down - £3.50</li></ul></div>
                     </div>
                     <div class="ac-item ac-active">
                         <h5 class="ac-title"><i class="fa fa-sun-o"></i>Lotions and Product</h5>
