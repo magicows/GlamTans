@@ -203,7 +203,7 @@ get_header(); ?>
         <div class="row">
             <div class="col-md-6">
                 <h3 class="text-uppercase">Booking &amp; Getting In Touch</h3>
-                <p>Please use this contact form to get in touch with us about making a booking or for any other general enquiries. One of our friendly staff members will look to handle your enquiry as soon as possible. Alternatively, you can contact the salon via telephone on 07388472614</p>
+                <p>Please use this contact form to get in touch with us about making a booking or for any other general enquiries. One of our friendly staff members will look to handle your enquiry as soon as possible.<br/><br/> Alternatively, you can contact the salon via telephone on 0138 491 0428, or visit our salon located in Central Market, Cradley Heath.</p>
 
 
                 <div class="row m-t-40">
@@ -216,7 +216,8 @@ get_header(); ?>
                             West Midlands<br>
                             B645HH<br>
                             <br>
-                            <abbr title="Phone">P:</abbr> <a href="tel:+447388472614">07388472614</a><br>
+                            <abbr title="Phone">P:</abbr> <a href="tel:+441384910428">0138 491 0428</a><br>
+                            <abbr title="Mobile">M:</abbr> <a href="tel:+447388472614">07388472614</a><br>
                             <abbr title="Email">E:</abbr> <a href="mailto:contact@glamtans.co.uk">contact@glamtans.co.uk</a>
    						</address>
                     </div>
