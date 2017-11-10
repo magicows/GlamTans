@@ -127,31 +127,31 @@ get_header(); ?>
 				// $json_link="https://api.instagram.com/v1/users/self/media/recent/?";
 				// $json_link.="access_token={$access_token}&count={$photo_count}";
 
-				$json_link="https://www.instagram.com/glamtans.co.uk/media/";
+				$json_link="https://www.instagram.com/glamtans.co.uk/?__a=1";
 
 				$json = file_get_contents($json_link);
 				$obj = json_decode(preg_replace('/("\w+"):(\d+)/', '\\1:"\\2"', $json), true);
 				$i = 1;
 
-				foreach ($obj['items'] as $post) if ($i++ <= $photo_count){
+				foreach ($obj['user']['media']['nodes'] as $post) if ($i++ <= $photo_count){
 				     
-				    $pic_text=$post['caption']['text'];
-				    $pic_link=$post['link'];
+				    $pic_text=$post['caption'];
+				    $pic_link=$post['code'];
 				    $pic_like_count=$post['likes']['count'];
 				    $pic_comment_count=$post['comments']['count'];
-				    $pic_src=str_replace("http://", "https://", $post['images']['standard_resolution']['url']);
-				    $pic_created_time=date("F j, Y", $post['caption']['created_time']);
+				    $pic_src=str_replace("http://", "https://", $post['thumbnail_src']);
+				    $pic_created_time=date("F j, Y", $post['date']);
 				    // $pic_created_time=date("F j, Y", strtotime($pic_created_time . " +1 days"));
 				     
 				    echo "<div class='col-md-4 col-sm-6 col-xs-12 item_box'>";        
-				        echo "<a href='{$pic_link}' target='_blank'>";
+				        echo "<a href='https://instagram.com/p/{$pic_link}' target='_blank'>";
 				            echo "<img class='img-responsive photo-thumb' src='{$pic_src}' alt='{$pic_text}'>";
 				        echo "</a>";
 				        echo "<p>";
 				            echo "<p>";
 				                echo "<div style='color:#FF0080;'>";
 				                	echo "<span class='album-numbers'>{$pic_like_count} <i class='fa fa-heart'></i> </span>";
-				                    	echo "<a href='{$pic_link}' target='_blank'>{$pic_created_time}</a>";
+				                    	echo "<a href='https://instagram.com/p/{$pic_link}' target='_blank'>{$pic_created_time}</a>";
 				                echo "</div>";
 				            echo "</p>";
 				            echo "<p>{$pic_text}</p>";
