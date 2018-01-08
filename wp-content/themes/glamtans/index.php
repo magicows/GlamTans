@@ -38,7 +38,7 @@ get_header(); ?>
             <br>
             <br>
             <h3>SPRAY TANNING</h3>
-            <span>Coming Soon! </span>
+            <span>See Prices below!</span>
         </div>
     </div>
 </section>
@@ -58,19 +58,39 @@ get_header(); ?>
                     </div>
                     <div class="ac-item ac-active">
                         <h5 class="ac-title"><i class="fa fa-gbp"></i>Course Pricing</h5>
-                        <div style="display: block;" class="ac-content"><ul><li>30 Minutes - £12.50</li><li>60 minutes - £20.00</li><li>90 minutes - £34.00</li></ul></div>
+                        <div style="display: block;" class="ac-content"><ul><li>30 Minutes - £12.50</li><li>60 minutes - £20.00</li><li>90 minutes - £31.50</li></ul></div>
                     </div>
                     <div class="ac-item ac-active">
                         <h5 class="ac-title"><i class="fa fa-calendar"></i>Group Bookings</h5>
                         <div style="display: block;" class="ac-content">Group booking are available upon request. We can cater for Wedding and Prom parties so whichever your big day, why not get in touch using the form below.</div>
                     </div>
                     <div class="ac-item ac-active">
-                        <h5 class="ac-title"><i class="fa fa-paint-brush"></i>Glamnails</h5>
-                        <div style="display: block;" class="ac-content"><ul><li>Full Set - £20.00</li><li>Infills - £15.00</li><li>Nail Removal - £10.00</li><li>Nail Polish - £5+</li><li>Nail Gels - £18.00</li><li>Toe Polish - £5.00</li><li>Toe Gels - £15.00</li><li>Polish Removal - £4.00</li><li>Patterns - £4.00</li><li>Chrome Look - £2.50 per nail</li><li>Gems - £1.00 each</li><li>Cut Down - £3.50</li></ul></div>
-                    </div>
-                    <div class="ac-item ac-active">
                         <h5 class="ac-title"><i class="fa fa-sun-o"></i>Lotions and Product</h5>
                         <div style="display: block;" class="ac-content">We have a range of lotions and product available to purchase at the till during your visit. We offer the best brand sachets and bottles, with sachets starting from £2 each.</div>
+                    </div>
+                    <div class="ac-item ac-active">
+                        <h5 class="ac-title"><i class="fa fa-sun-o"></i>Spray Tans</h5>
+                        <div style="display: block;" class="ac-content"><ul><li>£15.00 each or 2 for £25.00</li><li>£10.00 legs only</li><li>Available In-Store and Mobile Bookings available at £20.00 each or 2 for £35.00, minimum booking of two people</li></ul></div>
+                    </div>
+                    <div class="ac-item ac-active">
+                        <h5 class="ac-title"><i class="fa fa-paint-brush"></i>Glamnails</h5>
+                        <div style="display: block;" class="ac-content"><ul><li>Plain Acrylic - £20.00</li><li>French Manicure - £24.00</li><li>Nail Varinish - £4.00</li><li>Nail Varnish under 16 - £2.50</li><li>Nail Varnish Removal - £2.50</li><li>Single Nail Fix - £3.50</li><li>Seasonal Nails - from £20.00</li><li>Polish Removal - £4.00</li><li>Single Crystal - £0.10</li></ul></div>
+                    </div>
+                    <div class="ac-item ac-active">
+                        <h5 class="ac-title"><i class="fa fa-female"></i>Waxing</h5>
+                        <div style="display: block;" class="ac-content"><ul><li>Eye Brows - £4.00</li><li>Eye Brows - £4.00</li><li>Lip and Chin - £4.00</li><li>1/2 Leg - £10.00</li><li>Full Leg - £18.00</li><li>Bikini - £10.00</li><li>Chest and Back - £15.00</li><li>Under Arm - £6.00</li></ul></div>
+                    </div>
+                    <div class="ac-item ac-active">
+                        <h5 class="ac-title"><i class="fa fa-eye"></i>Tinting and Extensions</h5>
+                        <div style="display: block;" class="ac-content"><ul><li>Eye Brow/Lash Tinting - £4.00</li><li>Single Lashes Extensions - £40.00</li><li>Monthly Infils - £15.00</li><li>Cluster Eyelashes - £25.00</li></ul></div>
+                    </div>
+                    <div class="ac-item ac-active">
+                        <h5 class="ac-title"><i class="fa fa-user"></i>Massage</h5>
+                        <div style="display: block;" class="ac-content"><ul><li>Swedish, Sensory, Deep Tissue and Pressure Points - £20.00 for 30 minutes, or £30.00 for 60 minutes</li><li>Back, Neck and Scalp Massage - £10.00 - 15 minutes</li><li>Manicure, File and Paint - £10.00</li><li>Pedicure - £20.00</li></ul></div>
+                    </div>
+                    <div class="ac-item ac-active">
+                        <h5 class="ac-title"><i class="fa fa-glass"></i>Princess Pamper Parties</h5>
+                        <div style="display: block;" class="ac-content"><p>Parties include:<ul><li>Nail Painting inc Toes</li><li>Nail Art</li><li>Face Massage</li><li>Face Masks</li><li>Hair Curled or Straightened</li><li>Face Glitter Art/Stencil/Tattoos</li><li>FREE Bottle of Bubbles (non alcholic)</li></ul></p><p>All parties can be tailored to your needs and can be done in salon or at your home.</p><p>Prices from £10 per child (£20 non-refundable deposit secures)</p><p>No food provided but arrangements can be made to bring your own.</p><p>NO ACRYLICS OR GELS UNDER 14 YEARS OLD</p></div>
                     </div>
                     <div class="ac-item">
                         <h5 class="ac-title"><i class="fa fa-exclamation-circle"></i>Over 18s only, Indentification may be required.</h5>
@@ -127,7 +147,7 @@ get_header(); ?>
 				// $json_link="https://api.instagram.com/v1/users/self/media/recent/?";
 				// $json_link.="access_token={$access_token}&count={$photo_count}";
 
-				$json_link="https://www.instagram.com/glamtans.co.uk/?__a=1";
+				$json_link="http://www.instagram.com/glamtans.co.uk/?__a=1";
 
 				$json = file_get_contents($json_link);
 				$obj = json_decode(preg_replace('/("\w+"):(\d+)/', '\\1:"\\2"', $json), true);
