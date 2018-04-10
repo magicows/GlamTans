@@ -153,14 +153,14 @@ get_header(); ?>
 				$obj = json_decode(preg_replace('/("\w+"):(\d+)/', '\\1:"\\2"', $json), true);
 				$i = 1;
 
-				foreach ($obj['user']['media']['nodes'] as $post) if ($i++ <= $photo_count){
+				foreach ($obj['graphql']['user']['edge_owner_to_timeline_media']['edges'] as $post) if ($i++ <= $photo_count){
 				     
-				    $pic_text=$post['caption'];
-				    $pic_link=$post['code'];
-				    $pic_like_count=$post['likes']['count'];
-				    $pic_comment_count=$post['comments']['count'];
-				    $pic_src=str_replace("http://", "https://", $post['thumbnail_src']);
-				    $pic_created_time=date("F j, Y", $post['date']);
+				    $pic_text=$post['node']['edge_media_to_caption']['edges'][0]['node']['text'];
+				    $pic_link=$post['node']['shortcode'];
+				    $pic_like_count=$post['node']['edge_liked_by']['count'];
+				    $pic_comment_count=$post['node']['edge_media_to_comment']['count'];
+				    $pic_src=str_replace("http://", "https://", $post['node']['thumbnail_src']);
+				    $pic_created_time=date("F j, Y", $post['node']['taken_at_timestamp']);
 				    // $pic_created_time=date("F j, Y", strtotime($pic_created_time . " +1 days"));
 				     
 				    echo "<div class='col-md-4 col-sm-6 col-xs-12 item_box'>";        
